@@ -14,7 +14,7 @@ const NavigationBar = () => {
         />
         <LuUser
           title="About"
-          className={`text-neutral-300 text-4xl hover:text-[#2ecc71] ${
+          className={`text-4xl hover:text-[#2ecc71] ${
             active === "About" ? "text-[#2ecc71]" : "text-neutral-300"
           }`}
           onClick={() => setActive("About")}
