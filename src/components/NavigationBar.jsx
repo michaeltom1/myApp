@@ -3,7 +3,7 @@ import { useData } from "../Context/DataProvider";
 const NavigationBar = () => {
   const { active, setActive } = useData();
   return (
-    <div className="fixed bottom-0 w-full">
+    <div className="fixed bottom-0 w-full pb-1">
       <div className="flex justify-around p-3 mx-2 rounded-2xl bg-[rgba(31,32,35,0.65)] backdrop-blur-xl border border-[rgba(255,255,255,0.1)] shadow-[0_8px_32px_0_rgba(0,0,0,0.1)] relative">
         <div
           className="absolute h-12 w-12 bg-[#2ecc71] rounded-full blur-[32px] opacity-20 transition-all duration-500 ease-in-out"
