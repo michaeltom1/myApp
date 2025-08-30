@@ -39,7 +39,7 @@ const HamburgerMenu = () => {
 
       {/* Circular expanding background */}
       <div
-        className={`fixed z-50 bg-[rgba(31,32,35,0.95)] backdrop-blur-xl transition-transform duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] rounded-full`}
+        className={`fixed z-50 bg-[rgb(21,22,28,0.95)] backdrop-blur-xl transition-transform duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] rounded-full`}
         style={{
           width: dimensions.size,
           height: dimensions.size,
